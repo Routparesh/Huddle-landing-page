@@ -128,6 +128,79 @@ body {
 
 /* Hero section style completed start from here to style new section*/
 
+/* footer section */
+
+footer{ 
+    background-color: var(--very-dark-cyan);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: var(--very-pale-cyan);
+    padding: 20px;
+    grid-gap:20px;
+}
+
+#grid-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+#grid-item ul{
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#grid-item li{
+    list-style: none;
+    padding: 5px;
+    margin-right: 20px; /* Add space between items */
+}
+
+#grid-item img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+#grid-item p {
+    margin: 0; /* Remove default margin from paragraphs */
+}
+
+#grid-item-2{
+    margin-top: 150px;  
+}
+
+#grid-item-2 ul{
+    list-style: none;
+}
+
+#grid-item-2 li{
+    padding: 5px;
+}
+
+#grid-item-2 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#grid-item-3{
+    margin-top: 150px;  
+}
+
+#grid-item-3 ul{
+    list-style: none;
+}
+
+#grid-item-3 li{
+    padding: 5px;
+}
+
+#grid-item-3 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
 
