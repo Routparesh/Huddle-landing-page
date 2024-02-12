@@ -202,6 +202,29 @@ footer{
     cursor: pointer;
 }
 
+#grid-item-4{
+    margin-top: 150px;
+}
+
+#grid-item-4 #icon{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#grid-item-4 #icon:hover{
+    color: var(--pink);
+}
+
+#grid-item-4 p{
+    margin-top: 190px;
+    font-size: 12px;
+}
+
 
 
 
